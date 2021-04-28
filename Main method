@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Homework2Solution {
+	
+	public static void main(String [] args) {
+		Scanner keyboard = new Scanner(System.in);
+		
+		System.out.println("Enter the slope (m) of the line");
+		int m = keyboard.nextInt();
+		
+		System.out.println("Enter the x value of the line");
+		int x = keyboard.nextInt();
+
+		System.out.println("Enter the y-intercept (b) of the line");
+		int b = keyboard.nextInt();
+		
+		int y = (m * x) + b;
+
+		System.out.println("The y-value of this line is: " + y);
+	}
+}
